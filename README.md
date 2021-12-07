@@ -44,4 +44,16 @@ Testing the application.
 
 * github
 
+# contact
+  name : Nur nure tusa
+
+  Address : nairobi-kenya
+
+  phone number : +254115314390
+
+  email : nur.tusa@student.moringaschool.com
+
+  # copy right
+  reserved to only tusa@company
+
 
