@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from .models import Profile, Post, Comment
 
 class SignUpForm(UserCreationForm):
-    email = forms.EmailField(max_length=254, help_text='Required. Inform a valid email address.')
+    email = forms.EmailField(max_length=200, help_text='Required. Inform a valid email address.')
 
     class Meta:
         model = User
