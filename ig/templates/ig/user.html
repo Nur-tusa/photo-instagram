@@ -1,5 +1,5 @@
 {% extends 'ig/base.html' %}
-{% load crispy_forms_tags %}
+<!-- {% load crispy_forms_tags %} -->
 
 {% block content %}
 <div class="container" style="margin-top:8%">
@@ -46,13 +46,16 @@
             <div class="card-body parent ">
                 <div class="im">
                 <img src="{{image.image.url}}" alt="{{image.caption}}" class="card-img">
-                <p id="overlay"class="text"> <i class="fas fa-heart" style="color:rgb(255, 255, 255); font-size: 18"></i>  <span style="color: white">{{image.likes.count}}</span> <i class="fas fa-comment ml-4" style="color: white"></i> <span style="color: white">{{image.comments.count}}</span></p>
+                <p id="overlay"class="text"> <i class="fas fa-heart" style="color:rgb(255, 255, 255); font-size: 18"></i>  <span style="color: rgb(255, 255, 255)">{{image.likes.count}}</span> <i class="fas fa-comment ml-4" style="color: rgb(42, 61, 230)"></i> <span style="color: rgb(209, 57, 120)">{{image.comments.count}}</span></p>
             
                     </div>
                     </div>
         </div>
         {% endfor %}
     </div>
+    <footer>
+        <h1>only reserved to @tusa company</h1>
+    </footer>
 </div>
 
 {% endblock %}
