@@ -31,4 +31,17 @@ Now Migrate.
 Run the application.
 Running the application.
 Testing the application.
+## Technologies Used
+* python3.9
+
+* Django
+
+* Html
+
+* bootrap
+
+* css
+
+* github
+
 
